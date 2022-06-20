@@ -15,7 +15,7 @@
   font-family: "Times New Roman", Times, serif;
   width: 150px;
   color: aliceblue;
-  border: 2px rgb(11, 11, 146);
+  border: solid 2px rgb(11, 11, 146);
   border-radius: 5%;
   /* text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.571); */
   padding-bottom: 1px;
@@ -47,7 +47,12 @@ h2 {
 }
 
 .input1 {
+  padding-bottom: none;
+  margin-left: 10px;
 }
 
 .input2 {
+  width: 33%;
+  align-content: center;
+  text-align: center;
 }

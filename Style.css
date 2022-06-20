@@ -1,0 +1,53 @@
+.container1 {
+  background: blue no-repeat fixed center;
+  font-family: "Times New Roman", Times, serif;
+  width: 150px;
+  color: aliceblue;
+  border: solid 2px rgb(11, 11, 146);
+  border-radius: 5%;
+  /* text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.571); */
+  padding-bottom: 1px;
+  justify-content: space-around;
+}
+
+.container2 {
+  background: rgb(2, 2, 33) no-repeat fixed center;
+  font-family: "Times New Roman", Times, serif;
+  width: 150px;
+  color: aliceblue;
+  border: 2px rgb(11, 11, 146);
+  border-radius: 5%;
+  /* text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.571); */
+  padding-bottom: 1px;
+  justify-content: space-around;
+}
+
+h2 {
+  padding-left: 4px;
+  text-shadow: 4px 1px 3px rgba(246, 255, 210, 0.703);
+}
+
+.section1 {
+  overflow: auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 2px 0 2px;
+  width: 50%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.section2 {
+  height: 200px;
+  width: fit-content;
+  background: rgba(15, 182, 15, 0.816);
+  display: flex;
+  /* align-content: flex-end; */
+  padding-inline: 4px;
+}
+
+.input1 {
+}
+
+.input2 {
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exo5</title>
+    <link rel="CRM shortcut icon" href="SF.png" />
+    <link rel="Stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <h1 align="center"><em>Liste de contact</em></h1>
+
+    <main>
+      <section class="section1">
+        <div class="container1">
+          <h2><u>Ventes</u></h2>
+          <ol>
+            <li>Fatou</li>
+            <li>Jeanne</li>
+            <li>Sarah</li>
+            <li>Mohammed</li>
+            <li>Françoise</li>
+            <li>Marie</li>
+          </ol>
+        </div>
+        <div class="container2">
+          <h2><u>Achats</u></h2>
+          <ol>
+            <li>Marc</li>
+            <li>Jeanne</li>
+            <li>Ibrahim</li>
+            <li>Keltoum</li>
+            <li>Françoise</li>
+            <li>Marie</li>
+          </ol>
+        </div>
+        <div class="container1">
+          <h2><u>SAV</u></h2>
+          <ol>
+            <li>Pamela</li>
+            <li>Ferdinand</li>
+            <li>Eric</li>
+            <li>Medhi</li>
+            <li>Corinne</li>
+            <li>Kévin</li>
+          </ol>
+        </div>
+        <div class="container2">
+          <h2><u>Transports</u></h2>
+          <ol>
+            <li>Charles</li>
+            <li>Manon</li>
+            <li>Aissatou</li>
+            <li>Amandine</li>
+            <li>Benjamin</li>
+            <li>Joséphine</li>
+          </ol>
+        </div>
+      </section>
+      <h1>Création d'un nouveau contact</h3>
+      <section class="section2">
+<form action="/action.php" method="post">
+    <label for="Nom">Nom</label><br>
+    <input id="Nom" type="text" placeholder="ex: Mouloud"><br>
+    <label for="Prénom">Prénom</label><br>
+    <input id="Prénom" type="text" placeholder="ex: Jean"><br>
+    <!-- <label for="Service">Service</label>
+    <select id="Service">
+        <option value="Ventes">Ventes</option>
+        <option value="Achats">Achats</option>
+        <option value="SAV">Achats</option>
+        <option value="Transports">Transports</option>
+    </select> -->
+    <label for="Services">Services: </label><br>
+    <input type="radio" name="Service" id="Ventes"><label for="Sales">Ventes</label>
+    <input type="radio" name="Service" id="Achats"><label for="Purchases">Achats</label>
+    <input type="radio" name="Service" id="SAV"><label for="ASS">SAV</label>
+    <input type="radio" name="Service" id="Transports"><label for="Transportation">Transports</label><br>
+    <label for="Ajouter"></label>
+    <input id="Ajouter" type="submit" value="Ajouter">
+
+</form>
+      </section>
+      </section>
+    </main>
+  </body>
+</html>
